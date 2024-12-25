@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgba(24, 177, 170, 0.508);
+  }
+  .stopwatch {
+    font-size: 2em;
+  }
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius:5px;
+    border:1px solid rgba(0, 166, 255, 0.95);
+    color:green;
+  }
+  button:hover {
+    color:black;
+  }
+  .laps {
+    margin-top: 20px;
+    text-align: left;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .lap {
+    padding: 5px 0;
+  }
